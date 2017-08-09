@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(images/myimage.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+   
+}
+.intro .inner{
+    
+    display: table-cell;
+    vertical-align:middle;
+    width: 100;
+    max-width: none;
+}
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 28%;
+}
+
+.content h1{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 600%;
+    font-weight: 100;
+    color: #e1efe9;
+    line-height: 70%;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+    font-weight: 400;
+    color: #3a6168;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #3a6168;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+}
+.btn:hover{
+    color: lightcyan;
+    border: solid lightcyan;
+}
+p {
+    font-size: 150%;
+    line-height: 120%;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+
+     .content{
+        padding-bottom: 30%
+    }    
+    .content h1 {
+        font-size: 450%;
+    }
+    .btn{
+        font-size: 130%
+            padding: 9px 17px;
+    }
+   
+}
+@media screen and (max-width: 768px) {
+ .content{
+        padding-bottom: 40%
+    }
+    .content h1 {
+        font-size: 300%;
+    }
+    .btn{
+        font-size: 110%
+            padding: 9px 17px;
+    }
+    
+     p{
+       font-size: 50px;
+        line-height: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+	.content{
+        padding-bottom: 50%
+    }
+    .content h1 {
+        font-size: 250%;
+    }
+    .btn{
+        font-size: 110%
+            padding: 6px 14px;
+    }
+    
+     p{
+       font-size: 50px;
+        line-height: 100%;
+    }
+}
+
+
+
